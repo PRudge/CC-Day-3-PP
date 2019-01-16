@@ -10,9 +10,9 @@ total = 0
 return total
 end
 
-def find_item( houses, actual_house )
-  for house in houses
-    if house == actual_house
+def find_item( array, string )
+  for item in array
+    if item == string
       return true
     end
   end
