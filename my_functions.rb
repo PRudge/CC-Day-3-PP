@@ -19,6 +19,7 @@ def find_item( array, string )
   return false
 end
 
-def get_first_key( wallets )
-  return wallets.keys[0]
+def get_first_key( hash )
+  return hash.keys[0]
+  # wallets.key().first()
 end
