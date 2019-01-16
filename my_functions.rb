@@ -8,4 +8,12 @@ total = 0
     total += number
   end
 return total
-end  
+end
+
+def find_item( houses, actual_house )
+  for house in houses
+    if house == actual_house
+      return true
+    end
+  end
+end
