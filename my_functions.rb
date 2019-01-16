@@ -16,4 +16,5 @@ def find_item( houses, actual_house )
       return true
     end
   end
+  return false
 end
